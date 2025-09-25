@@ -1,15 +1,7 @@
 from django.urls import path
-
-# importing views from views..py
-from .views import list_view
+from .views import GeeksFormView, SuccessView
 
 urlpatterns = [
-    path('', list_view),
-]
-from django.urls import path
-
-# importing views from views..py
-from .views import delete_view
-urlpatterns = [
-    path('<id>/delete', delete_view ),
+    path('', GeeksFormView.as_view(), name='geeks_form'),
+    path('success/', SuccessView.as_view(), name='success'),
 ]
