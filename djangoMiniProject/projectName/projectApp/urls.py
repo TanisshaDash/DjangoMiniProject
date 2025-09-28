@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import GeeksFormView, SuccessView
+from projectApp import views  # Assuming your app is named 'mini'
 
 urlpatterns = [
-    path('', GeeksFormView.as_view(), name='geeks_form'),
-    path('success/', SuccessView.as_view(), name='success'),
+    path('simple', views.simple_view),
+    path('condition', views.check_age),
+    path('loop', views.loop),
 ]
