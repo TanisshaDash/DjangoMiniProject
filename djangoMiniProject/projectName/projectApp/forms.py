@@ -1,7 +1,5 @@
 from django import forms
-from .models import GeeksModel
 
-class GeeksForm(forms.ModelForm):
-    class Meta:
-        model = GeeksModel
-        fields = ['title', 'description']
+class InputForm(forms.Form):
+    name = forms.CharField(max_length=100)
+    email = forms.EmailField()
