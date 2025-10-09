@@ -30,7 +30,6 @@ insert_query = """
 INSERT INTO STUDENT (NAME, BRANCH, ROLL, SECTION, AGE)
 VALUES (%s, %s, %s, %s, %s)
 """
-
 students = [
     ("Alice", "CSE", 101, "A", 20),
     ("Bob", "ECE", 102, "B", 21),
