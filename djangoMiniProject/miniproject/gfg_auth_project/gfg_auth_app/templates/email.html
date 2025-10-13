@@ -1,0 +1,6 @@
+<h1>Your Emails</h1>
+<ul>
+    {% for email in emails %}
+    <li><strong>{{ email.subject }}</strong> from {{ email.sender }}<br>{{ email.snippet }}</li>
+    {% endfor %}
+</ul>
