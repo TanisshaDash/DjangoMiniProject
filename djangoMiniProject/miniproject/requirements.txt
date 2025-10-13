@@ -1,0 +1,5 @@
+Django>=4.0
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-api-python-client
