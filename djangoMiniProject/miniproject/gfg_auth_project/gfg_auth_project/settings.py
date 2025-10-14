@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gfg_auth_app',
+    'gmail_app',
 ]
 
 MIDDLEWARE = [
