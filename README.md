@@ -1,19 +1,17 @@
-# Django- Learning & MiniProject
-A simple Django web application built as part of my learning journey in Django,Python and web APIs.
+# Django - Learning & MiniProject
 
-## Features
-->User authentication via Google OAuth2  
-->Integration with Gmail API to fetch emails  
-->Clean project structure with Django app, templates, views  
-->Configuration using `.env` for secrets and credentials  
-# What I Learned
+A simple Django web application built as part of my learning journey in **Django**, **Python**, and **Web APIs**.
 
-Setting up Django projects and apps
+##  Tools & Concepts I Worked With
+-> User authentication via **Google OAuth2**  
+-> Integration with Gmail API to fetch emails  
+-> Clean project structure with **Django views**, **database**, **migrations**, and **templates**  
+-> Configuration using **`.env`** for secrets and credentials (with JSON support)
 
-Using views, templates, URLs, and routing
+##  What I Learned
+-> Setting up **Django projects**   
+-> Using views, templates, URLs, and routing 
+-> Integrating **OAuth2 authentication** with Google APIs  
+-> Working with Gmail API inside a Django app  
+-> Managing environment variables and secrets  
 
-Integrating OAuth2 authentication with Google
-
-Working with Gmail API inside a Django app
-
-Managing environment variables and secrets
