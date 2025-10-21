@@ -8,8 +8,12 @@ A simple Django web application built as part of my learning journey in Django,P
 ->Configuration using `.env` for secrets and credentials  
 # What I Learned
 
-  ->Setting up Django project and apps
-  ->Using views, templates, URLs and routing
-  ->Integrating OAuth2 authentication with Google
-  ->Working with Gmail API inside a Django app
-  ->Managing environment variables and secrets
+Setting up Django projects and apps
+
+Using views, templates, URLs, and routing
+
+Integrating OAuth2 authentication with Google
+
+Working with Gmail API inside a Django app
+
+Managing environment variables and secrets
