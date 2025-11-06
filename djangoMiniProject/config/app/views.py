@@ -6,3 +6,4 @@ from rest_framework.response import Response
 @permission_classes([IsAuthenticated])
 def hello_view(request):
     return Response({"message": "Hello, user!"})
+
